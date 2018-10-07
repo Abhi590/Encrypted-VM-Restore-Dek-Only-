@@ -5,7 +5,7 @@ It will restore encrypted VM with Dek Only
 
 
 # Objective
-If the backup is configured the recovery service vault will take backup of VM. If the VM got crashed or any issue with the VM then a new VM need to be created with same configuration and data from the backup. We can select the restore point before the VM crashed to create new VM.The below script wcan restore if the VM is encrypted with DEK (Disk Encryption Key).TO perform recovery you need to have storage account where restored config and vhd files will be stored.
+If the backup is configured the recovery service vault will take backup of VM. If the VM got crashed or any issue with the VM then a new VM need to be created with same configuration and data from the backup. We can select the restore point before the VM crashed to create new VM.The below script can restore if the VM is encrypted with DEK (Disk Encryption Key).TO perform recovery you need to have storage account where restored config and vhd files will be stored.
 
 The restoration of VM is two Phase activity
 
